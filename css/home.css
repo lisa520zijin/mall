@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+div, body {margin: 0 auto;padding: 0px; font-family: 微软雅黑;}
+p,h1,h2,h3,h4,ul{ margin:0; padding:0;font-family: 微软雅黑; }
+.fl{ float:left;}
+.fr{ float:right;}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    font-family: PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif;
+}
+.mhome{   
+    padding: 0;
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;}
+.viewport-new {
+    position: relative;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+.floor {
+    font-size: 0;
+    width: 100%;
+}
+.new-slide {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.slide-li {
+    width: 100%;
+    visibility: visible;
+    float: left;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+.slide-li img {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.floor-item {
+    width: 100%;
+    font-size: 100%;
+    overflow: hidden;
+}
+.position-r {
+    position: relative;
+}
+.position-ab.quick-entry-nav {
+    padding: 10px 0;
+}
+.position-ab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+.position-ab.quick-entry-nav {
+    padding: 10px 0;
+}
