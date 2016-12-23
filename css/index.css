@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+/*通用样式*/
+* {margin: 0px;padding: 0px;}
+div, body {margin: 0 auto;padding: 0px;font-family: 微软雅黑; font-size:12px;}
+ul, h1, h2, h3, h4, p {margin: 0px;padding: 0px;font-weight: normal;}
+img {border: none;}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+a:hover {cursor: pointer;}
+em{ font-style:normal;}
+
+.swiper-container { width: 100%; height: 168px;}
+.swiper-slide {text-align: center;font-size: 18px;background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+.swiper-slide img{ height:168px; width:100%;}
+.floor{ width: 100%;}    
+.quick_lab{ padding:10px 0; overflow:hidden; zoom:1; background:#f3f3f3;}
+.quick_lab li{ float:left; text-align:center; width:20%; padding:5px 0 10px 0;}
+.quick_lab li img{ height:40px; width:40px;}
+
+.ad_pic{ height:85px;}
+.ad_pic img{ height:85px; width:100%;}
+.tit_bigimg{ height:38px; background:url(../img/floor-tit.png) top center no-repeat; background-size:100% 100%; text-align:center;}
+.tit_bigimg img{ height:30px; margin-top:5px;}
+
+.floor_container{width: 100%;height: 100%; overflow: hidden; background:#f0f2f5;}
+.similar_product{ float:left;background-color: white;padding-bottom: 6px;    
+float: left;
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+.similar_product img{ width:185px; height:185px;}
+.similar-product-text{    height: 33px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    color: #232326;
+    margin-top: 5px;
+    line-height: 17px;
+    margin-bottom: 3px;
+    padding: 0 4px;
+}
+
+.similar-product-price {
+    color: #f23030;
+    font-size: 13px;
+    display: block;
+    padding: 0 4px;
+    position: relative;
+    top: 1px;
+    height: 25px;
+    line-height: 25px;
+}
+.footer{ height:40px; background:#ccc; position:fixed; width:100%; bottom:0; left:0; z-index:100; text-align:center; line-height:40px;}
+
